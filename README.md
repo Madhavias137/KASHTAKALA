@@ -5,38 +5,26 @@ KashtaKala is a modern Android application designed for furniture artisans and c
 ## 🚀 Features
 
 - **Furniture Catalog**: Browse through a wide variety of designs across categories like Sofas, Beds, Dining, and Cabinets.
-- **Premium Teak Collection**: Dedicated section for high-end solid teak wood furniture.
-- **Room Visualizer (AR)**: A unique feature that allows customers to capture or upload a photo of their room and overlay furniture to see how it fits their space. Drag and pinch to scale functionality included.
-- **Material Estimator**: Get quick estimates for materials needed based on custom dimensions.
-- **Business Management**: Integrated tracking for Bookings and Sales for the artisan.
+- **Room Visualizer (AR)**: Capture or upload a photo of your room and overlay furniture to see how it fits your space.
 - **Favorites**: Save and manage your favorite designs in a separate dedicated screen.
-- **Voice Search**: Use voice commands to find specific furniture items quickly.
+- **Material Estimator**: Get quick estimates for materials needed based on custom dimensions.
 
-## 🛠 Tech Stack
+## 📸 Project Gallery
 
-- **Kotlin**: Primary programming language.
-- **Jetpack Navigation**: For seamless fragment transitions.
-- **Room Database**: Local storage for quotes, favorites, and portfolio.
-- **MVVM Architecture**: Clean and scalable app structure.
-- **Glide**: Efficient image loading and caching.
-- **View Binding**: Modern way to interact with UI components.
-- **Material 3**: High-quality UI components and theming.
-
-## 📸 Screenshots
-
-| Home Screen | Room Visualizer | Favorites |
+| Image 1 | Image 2 | Image 3 |
 | :---: | :---: | :---: |
 | <img src="SCREENSHOTS/WhatsApp Image 2026-05-15 at 12.36.12 PM.jpeg" width="200"> | <img src="SCREENSHOTS/WhatsApp Image 2026-05-15 at 12.36.13 PM.jpeg" width="200"> | <img src="SCREENSHOTS/WhatsApp Image 2026-05-15 at 12.36.12 PM (1).jpeg" width="200"> |
 
-## 📦 Getting Started
+| Image 4 | Image 5 |
+| :---: | :---: |
+| <img src="SCREENSHOTS/WhatsApp Image 2026-05-15 at 12.36.12 PM (2).jpeg" width="200"> | <img src="SCREENSHOTS/WhatsApp Image 2026-05-15 at 12.36.13 PM (1).jpeg" width="200"> |
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Madhavias137/KASHTAKALA.git
-   ```
-2. Open the project in **Android Studio**.
-3. Sync Gradle and run the app on an emulator or physical device.
+## 🛠 Tech Stack
+- Kotlin, Jetpack Navigation, Room Database, MVVM, Glide, Material 3.
+
+## 📦 Getting Started
+1. Clone the repository: `git clone https://github.com/Madhavias137/KASHTAKALA.git`
+2. Open in Android Studio and run.
 
 ## 📄 License
-
-This project is licensed under the MIT License.
+MIT License
