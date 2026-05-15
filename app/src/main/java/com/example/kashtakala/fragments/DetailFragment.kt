@@ -54,15 +54,15 @@ class DetailFragment : Fragment() {
                 }
 
                 btnShare.setOnClickListener {
+                    val shareUrl = "https://kashtakala.com/detail/${design.id}"
                     val shareIntent = Intent().apply {
                         action = Intent.ACTION_SEND
                         putExtra(Intent.EXTRA_TEXT, """
                             Check out this design on Kashta-Kala:
                             Product: ${design.title}
-                            Dimensions: ${design.dimensions}
-                            Estimated Price: ₹${String.format(Locale.getDefault(), "%,.0f", design.estimatedPrice)}
+                            Price: ₹${String.format(Locale.getDefault(), "%,.0f", design.estimatedPrice)}
                             
-                            Download Kashta-Kala to browse more!
+                            View here: $shareUrl
                         """.trimIndent())
                         type = "text/plain"
                     }

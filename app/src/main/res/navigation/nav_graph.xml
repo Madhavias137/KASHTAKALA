@@ -91,6 +91,11 @@
         android:name="com.example.kashtakala.fragments.DetailFragment"
         android:label="Detail"
         tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="designId"
+            app:argType="integer" />
+        <deepLink
+            app:uri="https://kashtakala.com/detail/{designId}" />
         <action
             android:id="@+id/action_detail_to_estimator"
             app:destination="@id/estimatorFragment" />
