@@ -11,5 +11,6 @@ data class BookingItem(
     val bookingDate: String,
     val estimatedDelivery: String,
     val amount: Double,
-    val status: String // "Pending", "In Progress", "Completed"
+    val status: String, // "Pending", "In Progress", "Completed"
+    val paymentMode: String // "Cash", "UPI", "Card", "Bank Transfer"
 )

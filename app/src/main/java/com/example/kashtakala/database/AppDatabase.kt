@@ -6,7 +6,7 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.example.kashtakala.models.*
 
-@Database(entities = [QuoteEntity::class, FavoriteDesign::class, PortfolioItem::class, BookingItem::class, SalesItem::class], version = 3, exportSchema = false)
+@Database(entities = [QuoteEntity::class, FavoriteDesign::class, PortfolioItem::class, BookingItem::class, SalesItem::class], version = 4, exportSchema = false)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun quoteDao(): QuoteDao
     abstract fun favoriteDao(): FavoriteDao

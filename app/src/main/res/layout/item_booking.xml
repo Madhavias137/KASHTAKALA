@@ -40,13 +40,28 @@
                 android:textStyle="bold" />
         </RelativeLayout>
 
-        <TextView
-            android:id="@+id/tvFurnitureType"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:textColor="@color/grey_800"
-            android:textSize="14sp" />
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp">
+
+            <TextView
+                android:id="@+id/tvFurnitureType"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/grey_800"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvPaymentMode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey_400"
+                android:textSize="12sp"
+                android:textStyle="italic" />
+        </LinearLayout>
 
         <com.google.android.material.divider.MaterialDivider
             android:layout_width="match_parent"

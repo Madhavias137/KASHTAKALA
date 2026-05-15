@@ -30,6 +30,7 @@ class BookingAdapter(
             binding.apply {
                 tvCustomerName.text = item.customerName
                 tvFurnitureType.text = item.furnitureType
+                tvPaymentMode.text = item.paymentMode
                 tvBookingDate.text = "Booked: ${item.bookingDate}"
                 tvDeliveryDate.text = "Delivery: ${item.estimatedDelivery}"
                 tvAmount.text = String.format(Locale.getDefault(), "₹%,.0f", item.amount)

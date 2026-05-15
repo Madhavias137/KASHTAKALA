@@ -14,3 +14,8 @@
 .cxx
 local.properties
 *.hprof
+
+# Keystore / Signing Files
+*.jks
+*.keystore
+/release/

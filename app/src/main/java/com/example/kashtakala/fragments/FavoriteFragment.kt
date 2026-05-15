@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
@@ -50,13 +51,11 @@ class FavoriteFragment : Fragment() {
             onShareClick = { design ->
                 shareDesign(design)
             },
-            onEstimateClick = { design ->
-                val bundle = Bundle().apply {
-                    putFloat("length", design.length.toFloat())
-                    putFloat("width", design.width.toFloat())
-                    putFloat("height", design.height.toFloat())
-                }
-                findNavController().navigate(R.id.estimatorFragment, bundle)
+            onAddToCartClick = { design ->
+                Toast.makeText(context, "${design.title} added to cart", Toast.LENGTH_SHORT).show()
+            },
+            onBuyNowClick = { design ->
+                Toast.makeText(context, "Proceeding to buy ${design.title}", Toast.LENGTH_SHORT).show()
             },
             isFavorite = { true } // All items in this fragment are favorites
         )

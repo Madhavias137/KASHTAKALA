@@ -71,6 +71,11 @@ class BookingFragment : Fragment() {
             .setView(dialogBinding.root)
             .create()
 
+        // Setup Payment Mode Dropdown
+        val paymentModes = arrayOf("Cash", "UPI", "Card", "Bank Transfer")
+        val paymentAdapter = ArrayAdapter(requireContext(), android.R.layout.simple_list_item_1, paymentModes)
+        dialogBinding.spinnerPaymentMode.setAdapter(paymentAdapter)
+
         val calendar = Calendar.getInstance()
         val dateFormat = SimpleDateFormat("dd/MM/yyyy", Locale.getDefault())
 
@@ -94,20 +99,22 @@ class BookingFragment : Fragment() {
             val date = dialogBinding.etBookingDate.text.toString()
             val delivery = dialogBinding.etDeliveryDate.text.toString()
             val amount = dialogBinding.etAmount.text.toString().toDoubleOrNull() ?: 0.0
+            val paymentMode = dialogBinding.spinnerPaymentMode.text.toString()
 
-            if (name.isNotEmpty() && type.isNotEmpty()) {
+            if (name.isNotEmpty() && type.isNotEmpty() && paymentMode.isNotEmpty()) {
                 val newBooking = BookingItem(
                     customerName = name,
                     furnitureType = type,
                     bookingDate = date,
                     estimatedDelivery = delivery,
                     amount = amount,
-                    status = "Pending"
+                    status = "Pending",
+                    paymentMode = paymentMode
                 )
                 viewModel.addBooking(newBooking)
                 dialog.dismiss()
             } else {
-                Toast.makeText(context, "Fill required fields", Toast.LENGTH_SHORT).show()
+                Toast.makeText(context, "Please fill all required fields including Payment Mode", Toast.LENGTH_SHORT).show()
             }
         }
 

@@ -151,13 +151,14 @@
                     android:textSize="16sp" />
 
                 <com.google.android.material.button.MaterialButton
-                    android:id="@+id/btnGoToQuote"
+                    android:id="@+id/btnShareEstimate"
                     style="@style/Widget.Material3.Button.TonalButton"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_marginTop="24dp"
-                    android:text="CREATE PRICE QUOTE"
+                    android:text="SHARE FULL ESTIMATE"
                     android:textColor="@color/primary_dark"
+                    app:icon="@android:drawable/ic_menu_share"
                     app:backgroundTint="@color/white"
                     app:cornerRadius="12dp" />
 

@@ -238,13 +238,11 @@ class HomeFragment : Fragment() {
             onShareClick = { design ->
                 shareDesign(design)
             },
-            onEstimateClick = { design ->
-                val bundle = Bundle().apply {
-                    putFloat("length", design.length.toFloat())
-                    putFloat("width", design.width.toFloat())
-                    putFloat("height", design.height.toFloat())
-                }
-                findNavController().navigate(R.id.action_home_to_estimator, bundle)
+            onAddToCartClick = { design ->
+                Toast.makeText(context, "${design.title} added to cart", Toast.LENGTH_SHORT).show()
+            },
+            onBuyNowClick = { design ->
+                Toast.makeText(context, "Proceeding to buy ${design.title}", Toast.LENGTH_SHORT).show()
             },
             isFavorite = { id -> favoriteIds.contains(id) }
         )

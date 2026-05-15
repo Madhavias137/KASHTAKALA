@@ -16,7 +16,8 @@ class DesignAdapter(
     private val onItemClick: (FurnitureDesign) -> Unit,
     private val onFavoriteClick: (FurnitureDesign) -> Unit,
     private val onShareClick: (FurnitureDesign) -> Unit,
-    private val onEstimateClick: (FurnitureDesign) -> Unit,
+    private val onAddToCartClick: (FurnitureDesign) -> Unit,
+    private val onBuyNowClick: (FurnitureDesign) -> Unit,
     private val isFavorite: (Int) -> Boolean = { false }
 ) : ListAdapter<FurnitureDesign, DesignAdapter.DesignViewHolder>(DiffCallback) {
 
@@ -60,7 +61,8 @@ class DesignAdapter(
                 root.setOnClickListener { onItemClick(design) }
                 favoriteButton.setOnClickListener { onFavoriteClick(design) }
                 shareButton.setOnClickListener { onShareClick(design) }
-                estimateButton.setOnClickListener { onEstimateClick(design) }
+                btnAddToCart.setOnClickListener { onAddToCartClick(design) }
+                btnBuyNow.setOnClickListener { onBuyNowClick(design) }
             }
         }
     }

@@ -96,7 +96,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Dimensions"
+                android:text="@string/dimensions"
                 android:textColor="@color/luxury_brown"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -113,7 +113,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
-                android:text="Material"
+                android:text="@string/material"
                 android:textColor="@color/luxury_brown"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -136,15 +136,34 @@
                 app:icon="@android:drawable/ic_menu_camera"
                 app:cornerRadius="12dp" />
 
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btnEstimate"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="56dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="OPEN MATERIAL ESTIMATOR"
-                android:textStyle="bold"
-                app:cornerRadius="12dp"
-                app:backgroundTint="@color/luxury_brown" />
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnAddToCart"
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_width="0dp"
+                    android:layout_height="56dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:text="ADD TO CART"
+                    android:textStyle="bold"
+                    app:cornerRadius="12dp"
+                    app:strokeColor="@color/luxury_brown" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnBuyNow"
+                    android:layout_width="0dp"
+                    android:layout_height="56dp"
+                    android:layout_weight="1"
+                    android:text="BUY NOW"
+                    android:textStyle="bold"
+                    app:cornerRadius="12dp"
+                    app:backgroundTint="@color/luxury_brown" />
+            </LinearLayout>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnShare"
@@ -152,7 +171,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:layout_marginTop="16dp"
-                android:text="Share Design"
+                android:text="@string/share_design"
                 app:cornerRadius="12dp"
                 app:strokeColor="@color/luxury_brown"
                 app:strokeWidth="1dp" />
