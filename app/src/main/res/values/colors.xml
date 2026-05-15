@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Luxury Gold & Dark Palette -->
+    <color name="primary_gold">#D4AF37</color>
+    <color name="primary_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="on_surface_light">#E0E0E0</color>
+    <color name="accent_gold_light">#FFD700</color>
+    <color name="luxury_cream">#FAF9F6</color>
+    <color name="luxury_brown">#3E2723</color>
+
+    <!-- Standard Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="grey_800">#424242</color>
+    <color name="transparent">#00000000</color>
+    <color name="glass_white">#4DFFFFFF</color>
+</resources>

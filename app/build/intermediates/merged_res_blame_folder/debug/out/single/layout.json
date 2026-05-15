@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-mergeDebugResources-54:\\layout\\fragment_portfolio.xml",
+        "source": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-main-57:\\layout\\fragment_portfolio.xml"
+    },
+    {
+        "merged": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-mergeDebugResources-54:\\layout\\fragment_booking.xml",
+        "source": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-main-57:\\layout\\fragment_booking.xml"
+    },
+    {
+        "merged": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-mergeDebugResources-54:\\layout\\fragment_catalog.xml",
+        "source": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-main-57:\\layout\\fragment_catalog.xml"
+    },
+    {
+        "merged": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-mergeDebugResources-54:\\layout\\dialog_add_portfolio.xml",
+        "source": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-main-57:\\layout\\dialog_add_portfolio.xml"
+    },
+    {
+        "merged": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-mergeDebugResources-54:\\layout\\item_furniture.xml",
+        "source": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-main-57:\\layout\\item_furniture.xml"
+    },
+    {
+        "merged": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-mergeDebugResources-54:\\layout\\fragment_signup.xml",
+        "source": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-main-57:\\layout\\fragment_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-mergeDebugResources-54:\\layout\\dialog_add_sale.xml",
+        "source": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-main-57:\\layout\\dialog_add_sale.xml"
+    },
+    {
+        "merged": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-mergeDebugResources-54:\\layout\\fragment_login.xml",
+        "source": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-main-57:\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-mergeDebugResources-54:\\layout\\fragment_visualizer.xml",
+        "source": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-main-57:\\layout\\fragment_visualizer.xml"
+    },
+    {
+        "merged": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-mergeDebugResources-54:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-main-57:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "com.example.kashtakala.app-mergeDebugResources-54:/layout/fragment_home.xml",
+        "source": "com.example.kashtakala.app-main-57:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-mergeDebugResources-54:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-main-57:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-mergeDebugResources-54:\\layout\\item_category.xml",
+        "source": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-main-57:\\layout\\item_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-mergeDebugResources-54:\\layout\\fragment_favorite.xml",
+        "source": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-main-57:\\layout\\fragment_favorite.xml"
+    },
+    {
+        "merged": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-mergeDebugResources-54:\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-main-57:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-mergeDebugResources-54:\\layout\\fragment_sales.xml",
+        "source": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-main-57:\\layout\\fragment_sales.xml"
+    },
+    {
+        "merged": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-mergeDebugResources-54:\\layout\\fragment_estimator.xml",
+        "source": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-main-57:\\layout\\fragment_estimator.xml"
+    },
+    {
+        "merged": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-mergeDebugResources-54:\\layout\\item_sales.xml",
+        "source": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-main-57:\\layout\\item_sales.xml"
+    },
+    {
+        "merged": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-mergeDebugResources-54:\\layout\\item_design.xml",
+        "source": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-main-57:\\layout\\item_design.xml"
+    },
+    {
+        "merged": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-mergeDebugResources-54:\\layout\\item_portfolio.xml",
+        "source": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-main-57:\\layout\\item_portfolio.xml"
+    },
+    {
+        "merged": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-mergeDebugResources-54:\\layout\\fragment_quotation.xml",
+        "source": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-main-57:\\layout\\fragment_quotation.xml"
+    },
+    {
+        "merged": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-mergeDebugResources-54:\\layout\\item_booking.xml",
+        "source": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-main-57:\\layout\\item_booking.xml"
+    },
+    {
+        "merged": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-mergeDebugResources-54:\\layout\\dialog_add_booking.xml",
+        "source": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-main-57:\\layout\\dialog_add_booking.xml"
+    },
+    {
+        "merged": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-mergeDebugResources-54:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-main-57:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-mergeDebugResources-54:\\layout\\fragment_detail.xml",
+        "source": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-main-57:\\layout\\fragment_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-mergeDebugResources-54:\\layout\\fragment_splash.xml",
+        "source": "C:\\Users\\madha\\.gradle\\daemon\\8.7\\com.example.kashtakala.app-main-57:\\layout\\fragment_splash.xml"
+    }
+]
