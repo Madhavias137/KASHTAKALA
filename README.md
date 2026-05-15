@@ -24,15 +24,17 @@ KashtaKala is a modern Android application designed for furniture artisans and c
 
 ## 📸 Screenshots
 
-*(Add screenshots here after running the app)*
+| Home Screen | Room Visualizer | Favorites |
+| :---: | :---: | :---: |
+| <img src="SCREENSHOTS/WhatsApp Image 2026-05-15 at 12.36.12 PM.jpeg" width="200"> | <img src="SCREENSHOTS/WhatsApp Image 2026-05-15 at 12.36.13 PM.jpeg" width="200"> | <img src="SCREENSHOTS/WhatsApp Image 2026-05-15 at 12.36.12 PM (1).jpeg" width="200"> |
 
 ## 📦 Getting Started
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/KashtaKala.git
+   git clone https://github.com/Madhavias137/KASHTAKALA.git
    ```
-2. Open the project in **Android Studio (Hedgehog or newer)**.
+2. Open the project in **Android Studio**.
 3. Sync Gradle and run the app on an emulator or physical device.
 
 ## 📄 License
